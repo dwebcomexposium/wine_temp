@@ -3,7 +3,7 @@
 	var $doc = $(document);
 	var scrolledY = 0;
 
-	//Animate Sections
+	//Animation Sections
 	var $animated = $('.animated');
 
 	var winHeight = $win.height();
