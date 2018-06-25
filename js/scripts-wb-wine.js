@@ -40,11 +40,22 @@
 				scrollTop: targetOT
 			})
 		})
+
+		//Countdown
+		$('#countdown').countdown($('#countdown').data('time')).on('update.countdown', function(event) {
+			var $this = $(this).html(event.strftime(''
+					    + '<div><strong>%D</strong> <h6>jour%!d</h6></div>'
+					    + '<div><strong>%H</strong> <h6>heure%!d</h6></div>'
+					    + '<div><strong>%M</strong> <h6>minute%!d</h6></div>'
+				))
+		});
+
 	});
 
 	$win.on('load', function() {
 		animateElements();
 		animate(scrolledY);
+		
 	}).on('scroll', function() {
 		scrolledY = $win.scrollTop();
 		animate(scrolledY);
