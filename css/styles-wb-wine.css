@@ -194,7 +194,7 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 }
 
 @media(max-width: 767px){
-	.logo { width: 85px; height: 120px; }
+	.logo { width: 93px; height: 128px; }
 	.logo-w { width: 175px; height: 121px; }
 }
 
@@ -252,7 +252,7 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 .site-banner .shell { display: flex; justify-content: space-between; padding: 40px 16px 0 0;  }
 
 @media(max-width: 1400px){
-	.site-banner .shell  { padding-top: 40px !important; }
+	.site-banner .shell  { padding-top: 33px !important; }
 	
 }
 
@@ -269,8 +269,7 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 
 .intro .intro__content { color: #fff; max-width: 600px; margin: auto; text-align: center; }
 .intro .intro__content p { letter-spacing: 0.025em; font-weight: 400; line-height: 1.75; }
-.intro .intro__content p strong { font-weight: 700; font-size: 21px;
-}
+.intro .intro__content p strong { font-weight: 700;  font-size: 21px;}
 
 .intro .intro__body { position: absolute; bottom: 0; left: 0; width: 100%; z-index: 10; height: 100vh; }
 .intro .intro__body h6 { margin: 0; font-size: 12px; font-weight: 300; color: #fff; }
@@ -334,18 +333,34 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 	.intro .intro__body-inner { height: initial; }
 	.intro .intro__body-inner--alt { text-align: center; margin-top: 0; min-width: 0; }
 	.intro .intro__body-inner--alt .btn-primary { position: static; -webkit-transform: translate(0); -ms-transform: translate(0); -o-transform: translate(0); transform: translate(0); margin: 0; }
-
-	.intro .intro__inner { top: 200px; }
 	
-	.intro .intro__content h1 { font-size: 20px; }
-	.intro .intro__content p { font-size: 13px; margin-bottom: 20px; }
+
+	.intro .intro__body-inner--secondary { position: absolute; top: 0; left: 0; width: 100%; text-align: left; padding: 0 22px; padding-top: 187px; }
+	.intro .intro__body-inner--secondary h5 { max-width: 300px; }
+	.intro .intro__body-inner--secondary img { position: absolute; top: 32px; left: 134px; max-width: 60px; }
+	.intro .intro__body-inner--secondary h3 { position: absolute; top: 135px; left: 134px; font-size: 17px; }
+	.intro .intro__body-inner--secondary h3 span { font-size: 11px; }
+	.intro .intro__body-inner--secondary h6 { display: none; }
+	.intro .intro__body-inner--secondary .countdown { display: none; }
+	.intro .intro__body-inner--secondary .btn-primary { display: none; }
+	.intro .intro__body-inner--secondary .intro__body-content { position: static;  }
+
+
+
+	.intro .intro__inner { top: 200px; top: 340px; }
+	
+	.intro .intro__content h1 { font-size: 25px; letter-spacing: 0; margin: 0 45px 25px;  }
+	.intro .intro__content p { font-size: 13px; margin: 0 20px; }
+	.intro .intro__content img { margin: 5px auto 0; max-width: 75%; }
 	
 	.intro .intro__btn { bottom: auto; top: 100vh; -webkit-transform: translate(-50%, -100%); -ms-transform: translate(-50%, -100%); -o-transform: translate(-50%, -100%); transform: translate(-50%, -100%); margin-top: -10px; }
 	.intro .intro__btn i { margin-top: 5px; }
 }
 
 @media(max-width: 374px){
-	.intro .intro__content p { font-size: 10px; margin-bottom: 10px; }
+	.intro .intro__inner { top: 280px; }
+	.intro .intro__content h1 { margin: 0 0 25px; font-size: 20px; }
+	.intro .intro__content p { font-size: 9px; margin: 0 0 10px; }
 }
 
 
