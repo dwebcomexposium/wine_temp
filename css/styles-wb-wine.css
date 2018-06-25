@@ -269,7 +269,8 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 
 .intro .intro__content { color: #fff; max-width: 600px; margin: auto; text-align: center; }
 .intro .intro__content p { letter-spacing: 0.025em; font-weight: 400; line-height: 1.75; }
-.intro .intro__content p strong { font-weight: 700; }
+.intro .intro__content p strong { font-weight: 700; font-size: 21px;
+}
 
 .intro .intro__body { position: absolute; bottom: 0; left: 0; width: 100%; z-index: 10; height: 100vh; }
 .intro .intro__body h6 { margin: 0; font-size: 12px; font-weight: 300; color: #fff; }
