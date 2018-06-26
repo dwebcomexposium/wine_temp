@@ -42,6 +42,8 @@
 		})
 
 		//Countdown
+		
+		if ($('html').attr('lang') == 'fr') {
 		$('#countdown').countdown($('#countdown').data('time')).on('update.countdown', function(event) {
 			var $this = $(this).html(event.strftime(''
 					    + '<div><strong>%D</strong> <h6>jour%!d</h6></div>'
@@ -49,6 +51,15 @@
 					    + '<div><strong>%M</strong> <h6>minute%!d</h6></div>'
 				))
 		});
+		} else {
+		    $('#countdown').countdown($('#countdown').data('time')).on('update.countdown', function(event) {
+		    	var $this = $(this).html(event.strftime(''
+		    			    + '<div><strong>%D</strong> <h6>day%!d</h6></div>'
+		    			    + '<div><strong>%H</strong> <h6>hour%!d</h6></div>'
+		    			    + '<div><strong>%M</strong> <h6>minute%!d</h6></div>'
+		    		))
+		    });
+		}
 
 	});
 
