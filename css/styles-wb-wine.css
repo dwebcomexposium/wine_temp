@@ -247,7 +247,7 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 	Header
 \* ------------------------------------------------------------ */
 
-.site-banner { background: none; position: absolute; top: 0; left: 0; width: 100%; max-width: 100%; z-index: 10; }
+.site-banner { background: none; position: absolute; top: 0; left: 0; width: 100%; max-width: 100%; z-index: 999; }
 .site-banner .inside { padding: 0; max-width: 100%; }
 .site-banner .shell { display: flex; justify-content: space-between; padding: 40px 16px 0 0;  }
 
