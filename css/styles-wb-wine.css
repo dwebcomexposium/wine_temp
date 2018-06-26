@@ -199,6 +199,8 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 }
 
 
+
+
 /* ------------------------------------------------------------ *\
 	Countdown
 \* ------------------------------------------------------------ */
@@ -256,6 +258,12 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 	
 }
 
+@media(max-height: 770px){
+	.site-banner .shell  { padding-top: 10px !important; }
+	.intro .intro__body-content  {top: 300px!important; }
+	.intro .intro__body-inner--secondary .btn-primary { display: none; }
+	
+}
 /* ------------------------------------------------------------ *\
 	Intro
 \* ------------------------------------------------------------ */
@@ -271,7 +279,7 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 .intro .intro__content p { letter-spacing: 0.025em; font-weight: 400; line-height: 1.75; }
 .intro .intro__content p strong { font-weight: 700;  font-size: 21px;}
 
-.intro .intro__body { position: absolute; bottom: 0; left: 0; width: 100%; z-index: 10; height: 100vh; }
+.intro .intro__body { position: absolute; top: 0; left: 0; width: 100%; z-index: 10; height: 100vh; }
 .intro .intro__body h6 { margin: 0; font-size: 12px; font-weight: 300; color: #fff; }
 .intro .intro__body h3 { line-height: 1; text-transform: uppercase; margin: 0 0 23px; color: #fff; font-family: 'Brandon Grotesque', sans-serif; font-weight: 900; font-size: 27px; line-height: 0.81;  letter-spacing: 0.075em; }
 .intro .intro__body h3 span { font-size: 17px; letter-spacing: 0.12em; }
