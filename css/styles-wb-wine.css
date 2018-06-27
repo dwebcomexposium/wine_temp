@@ -117,10 +117,10 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 
 .btn:hover { background: #d93a1c; color: #fff; }
 
-.btn-big { border: 1px solid #231f20; color: #231f20; font-size: 20px; font-weight: 400; text-transform: uppercase; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.1em; padding: 30px 58px; -webkit-transition: background .4s, color .4s; -o-transition: background .4s, color .4s; transition: background .4s, color .4s; }
-.btn-big:hover { background: #231f20; color: #fff; }
+.btn-big { border: 1px solid #231f20; color: #231f20; font-size: 20px; font-weight: 400; text-transform: uppercase; font-family: 'Brandon Grotesque', sans-serif; letter-spacing: 0.1em; padding: 30px 58px; -webkit-transition: background .4s, color .4s; -o-transition: background .4s, color .4s; transition: background .4s, color .4s; cursor: auto; }
+/*.btn-big:hover { background: #231f20; color: #fff; }*/
 
-.btn-big--alt { border-color: rgba(255, 255, 255, 0.2); font-size: 13px; font-family: 'Montserrat', sans-serif; line-height: 1.38; text-transform: none; max-width: 630px; padding: 25px 10px; font-weight: 400; }
+.btn-big--alt { border-color: rgba(255, 255, 255, 0.2); font-size: 13px; font-family: 'Montserrat', sans-serif; line-height: 1.38; text-transform: none; max-width: 630px; padding: 25px 10px; font-weight: 400; color: #fff!important; }
 
 @media(max-width: 1023px){
 	.btn-primary { min-width: 395px; }
@@ -266,7 +266,7 @@ h1 { font-size: 37px; line-height: 1.14; letter-spacing: 0.1em; font-family: 'Br
 	
 }
 
-@media(max-height: 770px){
+@media(max-height: 830px){
 /*	.site-banner .shell  { padding-top: 10px !important; }*/
 	.intro .intro__body-content  {top: 330px!important; }
 	.intro .intro__body-inner--secondary .btn-primary { display: none; }
